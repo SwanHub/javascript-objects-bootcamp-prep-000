@@ -16,4 +16,4 @@ function removeFromPlaylist(list, artistName) {
   return list;
 }
 
-removeFromPlaylist(playlist, 'Drake');
+removeFromPlaylist(playlist);
