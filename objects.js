@@ -11,9 +11,9 @@ function updatePlaylist(playlist, artistName, songTitle) {
 updatePlaylist(playlist, 'Phil Ochs', 'Slowdive');
 
 
-function removeFromPlaylist(playlist, artistNAme) {
-  delete playlist.artistName;
-  return playlist;
+function removeFromPlaylist(list, artistName) {
+  delete list.artistName;
+  return list;
 }
 
-removeFromPlaylist(playlist, 'Phil Ochs');
+removeFromPlaylist(playlist, 'Drake');
