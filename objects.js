@@ -1,4 +1,4 @@
-var playlist = {
+var theGoods = {
   Drake: 'passionfruit',
   Rihanna: 'Umbrella'
 };
@@ -8,4 +8,4 @@ function updatePlaylist(playlist, artistName, songTitle) {
   return playlist;
 }
 
-updatePlaylist(playlist, 'Phil Ochs', 'Slowdive');
+updatePlaylist(theGoods, 'Phil Ochs', 'Slowdive');
