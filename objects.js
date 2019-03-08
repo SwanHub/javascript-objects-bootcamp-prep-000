@@ -1,11 +1,4 @@
 var playlist = {
-  Drake: 'passionfruit',
-  Rihanna: 'Umbrella'
-};
-
-function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[artistName] = songTitle
-  return playlist
+  Drake: "Passionfruit",
+  Rihanna: "Umbrella"
 }
-
-updatePlaylist(playlist, 'Phil Ochs', 'Slowdive');
