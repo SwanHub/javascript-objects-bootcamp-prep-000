@@ -12,8 +12,8 @@ updatePlaylist(playlist, 'Phil Ochs', 'Slowdive');
 
 
 function removeFromPlaylist(list, artistName) {
-  delete list.Drake;
+  delete list[artistName];
   return list;
 }
 
-removeFromPlaylist(playlist);
+removeFromPlaylist(playlist, 'Drake');
