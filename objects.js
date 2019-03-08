@@ -9,3 +9,5 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 updatePlaylist(playlist, 'Phil Ochs', 'Slowdive');
+
+
